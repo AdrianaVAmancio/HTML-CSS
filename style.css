@@ -1,0 +1,333 @@
+/* Code by: Adriana Vieira Amancio */
+
+body {
+    /*whole page style*/
+    background-color: #3C4518;
+    font-family:  'Courier New', Courier, monospace;
+    color: #f2f1f0;
+}
+/*Navegation bar*/
+.navigation {
+    /*reset default styles*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*Decoration*/
+    background-color: #2C331A;
+    border: 1px solid none;
+    border-top-style: none;
+    /*layout*/
+    display: flex;
+}
+.navigation a {
+      /* other styles omitted...*/
+      display: block;
+      color: #f2f1f0;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.75em 1em;
+}
+
+.navigation a:hover {
+      background-color: #C4E8B1;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}/*End*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*DO NO TOUCH ABOVE THAT SIGN*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Home page =  at right text / left video*/
+ h1 ,p{ 
+  color: #f2f1f0;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid none;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+h1{
+    padding-left: 35%;
+}
+
+
+#container{
+    display: flex;
+   
+}
+.left{
+    background-color: none;
+    float: left;
+    margin-top: 220px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.right{
+    background-color: none;
+    float: right;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.image1{
+    background-color: none;
+    margin-right: 5em;   
+
+}
+
+.image2{
+    background-color: none;
+    margin-right: 5em;   
+}
+
+.image3{
+    background-color: none;
+    margin-right: 5em;   
+}
+.image4{
+    background-color: none;
+    margin-right: 5em;   
+}/*End*/
+
+/*contact*/
+#container3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    padding-left: 50px;
+    font-family:  'Courier New', Courier, monospace;
+    color: #f2f1f0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*DO NO TOUCH ABOVE THAT SIGN*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*What to do page = left text / right image*/
+#container4{
+    display: flex;
+}
+h3{
+    padding-left: 2em;
+}
+
+.left2{
+    background-color: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px
+}
+
+.right2{
+    background-color: none;
+    float: right;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 50px;
+    
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*DO NO TOUCH ABOVE THAT SIGN*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Where stay page*/
+
+#container5{/*3 images*/
+    background-color: none;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.image5{
+    background-color: none;
+    margin-right: 10px;   
+
+}
+
+.image6{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image7{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+#container6{/*hotel info*/
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+   
+
+}
+
+#container7{/*hostel info*/
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+#container8{/*B&B info*/
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*DO NO TOUCH ABOVE THAT SIGN*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*Eat&drink page*/
+
+#container9{
+    display: flex;
+    margin-top: 150px;
+   
+}
+    
+.left3{
+        background-color: none;
+        float: left;
+        margin-right: 5px;
+        margin-top: 170px,;
+    
+      
+}
+.right3{
+        background-color: none;
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        margin-top: 30px;
+        margin-left: 300px;
+        margin-right: 100px;
+        margin-bottom: 450px;
+     
+}
+
+h4{
+    padding-left: 10em;
+}
+
+.image8{
+    background-color: none;
+    margin-right: 10px;
+
+}
+.image9{
+    background-color: none;
+    margin-right: 10px;   
+}
+.image10{
+    background-color: none;
+    margin-right: 10px;   
+}
+.image11{
+    background-color: none;
+    margin-right: 10px;   
+}
+.image12{
+    background-color: none;
+    margin-right: 10px;   
+}
+.image13{
+    background-color: none;
+    margin-right: 10px;   
+}
+.image14{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image15{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image16{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image17{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image18{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+.image19{
+    background-color: none;
+    margin-right: 10px;   
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*DO NO TOUCH ABOVE THAT SIGN*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*Planning page*/
+
+#container10{
+    display: flex;
+    margin-top: 100px;
+   
+}
+
+h5{
+    padding-left: 180px;
+    font-size: medium;
+}
+.left4{
+    background-color: none;
+    float: left;
+    margin-right: 20px;
+  
+}
+
+.right4{
+    background-color: none;
+    float: right;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image20{
+    background-color: none;
+    margin-left: 300px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.image21{
+    background-color: none;
+    margin-left: 250px;  
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.image22{
+    background-color: none;
+    margin-left: 70px;  
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
